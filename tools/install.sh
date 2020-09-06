@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -e
 
-BRANCH=${1:-master}
+LAPTOP_PROFILE=${LAPTOP_PROFILE:-master}
 
 git clone git@github.com:jakubigla/mac-dev-playbook.git ~/mac-dev-playbook
 cd ~/mac-dev-playbook
 
-git checkout $BRANCH
+git checkout "$LAPTOP_PROFILE"
 
 ./tools/run.sh
