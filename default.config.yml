@@ -77,7 +77,7 @@ homebrew_cask_apps:
   - google-chrome
   - iterm2
   - keybase
-  - microsoft-teams
+#  - microsoft-teams
   - miro
   - intellij-idea-ce
   - kdiff3
@@ -88,7 +88,7 @@ homebrew_cask_apps:
   - slack
   - spectacle
   - spotify
-  - transmission
+#  - transmission
   - tunnelbear
   - vlc
   - wkhtmltopdf
