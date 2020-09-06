@@ -18,7 +18,7 @@ This is a work in progress, and is mostly a means for me to document my current 
 ## Installation
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jakubigla/mac-dev-playbook/master/tools/install.sh | bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/jakubigla/mac-dev-playbook/zuhlke-laptop/tools/install.sh)"
 ```
 
   1. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
