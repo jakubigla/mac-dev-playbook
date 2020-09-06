@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-LAPTOP_PROFILE=${LAPTOP_PROFILE:-master}
+LAPTOP_PROFILE=${1:-master}
 
 git clone git@github.com:jakubigla/mac-dev-playbook.git ~/mac-dev-playbook
 cd ~/mac-dev-playbook
