@@ -3,65 +3,97 @@ downloads: ~/.ansible-downloads/
 
 configure_dotfiles: yes
 configure_sudoers: yes
-configure_terminal: yes
+configure_terminal: no
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/jakubigla/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
-  - .zshrc
+  - .gitconfig
   - .gitignore
-  - .inputrc
+  - .p10k.zsh
+  - .zshrc
   - .osx
-  - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
+  - archey
+  - awscli
+  - azure-cli
   - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
-  - git
-  - github/gh/gh
+  - bat
+  - ctop
+  - direnv
+  - dive
+  - eksctl
+  - fluxctl
+  - geoip
   - go
-  - gpg
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
+  - helm
+  - istioctl
+  - jq
+  - k9s
+  - kind
+  - kubebuilder
+  - kubectx
+  - kubernetes-cli
+  - kustomize
+  - macvim
+  - maven
+  - minikube
   - nmap
-  - node
   - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
   - openssl
-  - pv
+  - packer
+  - pipenv
+  - pyenv
+  - rsync
+  - ruby
+  - tfenv
+  - tflint
+  - tmux
+  - tree
+  - speedtest-cli
+  - youtube-dl
+  - yq
+  - watch
   - wget
-  - wrk
+  - wifi-password
+  - vault
+  - zsh
+  - zsh-syntax-highlighting
+  - chamber
 
 homebrew_taps:
   - homebrew/core
-  - homebrew/cask
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - 1password
+  - atom
+  - anaconda
   - docker
-  - dropbox
   - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - sequel-pro
+  - iterm2
+  - keybase
+  - microsoft-teams
+  - miro
+  - intellij-idea-ce
+  - kdiff3
+  - opera
+  - postman
+  - qnapi
+  - skype
   - slack
-  - sublime-text
-  - transmit
-  - vagrant
+  - spectacle
+  - spotify
+  - transmission
+  - tunnelbear
+  - vlc
+  - wkhtmltopdf
+  - aws-vault
+  - zoomus
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
